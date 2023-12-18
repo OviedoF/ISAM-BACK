@@ -1,0 +1,62 @@
+Time : 20:42:49
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:41:53
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:41:53
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:41:53
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:41:53
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:41:52
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:32
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:31
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:31
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:31
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:31
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:30
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:39:29
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:06
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:03
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:03
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:03
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:02
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:02
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:36:01
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'DESKTOP-0785UB7\LordS'.
+
+Time : 20:27:50
+SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 

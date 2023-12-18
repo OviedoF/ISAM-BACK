@@ -1,0 +1,128 @@
+Time : 22:14:42
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'num_decimales' no es válido.
+Raw SQL : select inv.id as idinventario,	
+                            inv.name as nombreinventario,
+                            inv.id_estado as idestadoinventario,
+                            inv.series as series,
+                            inv.normal_cd as normalcd,
+                            inv.tipocaptura as tipocaptura,
+                            inv.solo_uni as solounidad,
+                            FORMAT (inv.fecha_inventario, 'dd-MM-yyyy') as fecha_inventario,
+                            replace(inv.tipo_inve,'|','/') as tipodeinve,                            
+                            loc.codigo as codigolocal,
+                            loc.name as nombrelocal,
+                            cli.id as idcliente,
+                            cli.name as nombrecliente,
+                            ein.name as estadoinventario,
+                            coun.name AS pais, 
+							coun.symbol,
+                            ui.id_user as idusuario,
+                            inv.description,
+                            inv.num_decimales
+                        from  
+                            inventarios inv 
+                            inner join estados_inventario ein on  ein.id = inv.id_estado 
+                            inner join loc_inve_c lic	on lic.id_inven = inv.id
+                            inner join locales loc		on loc.id  = lic.id_local
+                            inner join cli_loc_c clc	on clc.id_local = loc.id 
+                            inner join clientes cli		on cli.id = clc.id_cliente
+                            inner join users_inven ui	on ui.id_inventario = inv.id
+                            LEFT OUTER JOIN country as coun ON cli.id_country = coun.id
+                        where loc.deleted = :del and 
+                                inv.deleted = :del and  
+                                ui.id_user = :idUser and 
+                                inv.id = :idInv ;	
+
+Time : 19:12:10
+SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+
+Time : 19:01:33
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'num_decimales' no es válido.
+Raw SQL : select inv.id as idinventario,	
+                            inv.name as nombreinventario,
+                            inv.id_estado as idestadoinventario,
+                            inv.series as series,
+                            inv.normal_cd as normalcd,
+                            inv.tipocaptura as tipocaptura,
+                            inv.solo_uni as solounidad,
+                            FORMAT (inv.fecha_inventario, 'dd-MM-yyyy') as fecha_inventario,
+                            replace(inv.tipo_inve,'|','/') as tipodeinve,                            
+                            loc.codigo as codigolocal,
+                            loc.name as nombrelocal,
+                            cli.id as idcliente,
+                            cli.name as nombrecliente,
+                            ein.name as estadoinventario,
+                            coun.name AS pais, 
+							coun.symbol,
+                            ui.id_user as idusuario,
+                            inv.description,
+                            inv.num_decimales
+                        from  
+                            inventarios inv 
+                            inner join estados_inventario ein on  ein.id = inv.id_estado 
+                            inner join loc_inve_c lic	on lic.id_inven = inv.id
+                            inner join locales loc		on loc.id  = lic.id_local
+                            inner join cli_loc_c clc	on clc.id_local = loc.id 
+                            inner join clientes cli		on cli.id = clc.id_cliente
+                            inner join users_inven ui	on ui.id_inventario = inv.id
+                            LEFT OUTER JOIN country as coun ON cli.id_country = coun.id
+                        where loc.deleted = :del and 
+                                inv.deleted = :del and  
+                                ui.id_user = :idUser and 
+                                inv.id = :idInv ;	
+
+Time : 19:01:27
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'num_decimales' no es válido.
+Raw SQL : select inv.id as idinventario,	
+                            inv.name as nombreinventario,
+                            inv.id_estado as idestadoinventario,
+                            inv.series as series,
+                            inv.normal_cd as normalcd,
+                            inv.tipocaptura as tipocaptura,
+                            inv.solo_uni as solounidad,
+                            FORMAT (inv.fecha_inventario, 'dd-MM-yyyy') as fecha_inventario,
+                            replace(inv.tipo_inve,'|','/') as tipodeinve,                            
+                            loc.codigo as codigolocal,
+                            loc.name as nombrelocal,
+                            cli.id as idcliente,
+                            cli.name as nombrecliente,
+                            ein.name as estadoinventario,
+                            coun.name AS pais, 
+							coun.symbol,
+                            ui.id_user as idusuario,
+                            inv.description,
+                            inv.num_decimales
+                        from  
+                            inventarios inv 
+                            inner join estados_inventario ein on  ein.id = inv.id_estado 
+                            inner join loc_inve_c lic	on lic.id_inven = inv.id
+                            inner join locales loc		on loc.id  = lic.id_local
+                            inner join cli_loc_c clc	on clc.id_local = loc.id 
+                            inner join clientes cli		on cli.id = clc.id_cliente
+                            inner join users_inven ui	on ui.id_inventario = inv.id
+                            LEFT OUTER JOIN country as coun ON cli.id_country = coun.id
+                        where loc.deleted = :del and 
+                                inv.deleted = :del and  
+                                ui.id_user = :idUser and 
+                                inv.id = :idInv ;	
+
+Time : 22:48:31
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 22:48:23
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 22:48:10
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;

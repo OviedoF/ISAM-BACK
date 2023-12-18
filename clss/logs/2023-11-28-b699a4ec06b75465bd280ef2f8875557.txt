@@ -1,0 +1,210 @@
+Time : 18:37:58
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to bigint.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 18:37:39
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:35:52
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:33:56
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:33:55
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:33:54
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:56
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:03
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:02
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:02
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:01
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:01
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:32:00
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:31:59
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:31:45
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'deleted', table 'isam_v5.dbo.t_marca_inventario_tmp'; column does not allow nulls. INSERT fails.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:31:26
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to bigint.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:31:19
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to bigint.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:27:38
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to bigint.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:22:38
+SQLSTATE[22001]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:19:00
+SQLSTATE[22001]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:17:31
+SQLSTATE[22001]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:07:01
+SQLSTATE[22001]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 18:06:07
+SQLSTATE[22001]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated.
+Raw SQL : insert into t_marca_inventario_tmp (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA)
+            values(:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura)
+
+Time : 00:13:24
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'dbo.pa_mantenimiento_token'.
+Raw SQL : EXEC dbo.pa_mantenimiento_token

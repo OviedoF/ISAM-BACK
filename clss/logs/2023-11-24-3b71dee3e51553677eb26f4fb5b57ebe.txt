@@ -1,0 +1,135 @@
+Time : 18:11:11
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error de inicio de sesión del usuario 'DESKTOP-BTV2J6M\Alex'.
+
+Time : 18:11:05
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error de inicio de sesión del usuario 'DESKTOP-BTV2J6M\Alex'.
+
+Time : 09:02:52
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'categoria_undefined' no es válido.
+Raw SQL : select 
+								distinct(COD_CATEGORIA) as deptoCode,
+								DESC_CATEGORIA as depto  
+							from 
+								categoria_undefined  
+							where 
+								ID_INVENTARIO = :idInv and 
+								deleted = :del ;
+
+Time : 09:02:52
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'tmp_variance_general_undefined' no es válido.
+Raw SQL : select 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA,
+							SUM( tvg.CANT_INV ) AS CANT_INV,
+							SUM( tvg.CANT_TEO ) AS CANT_TEO,
+							SUM( tvg.DIF ) AS DIF,
+							SUM( tvg.V_INV ) AS V_INV,
+							SUM( tvg.V_TEO ) AS V_TEO,
+							SUM( tvg.V_DIF ) AS V_DIF,
+							ABS( SUM( tvg.V_DIF ) ) AS ABS_DIF 
+						FROM 
+							tmp_variance_general_undefined tvg
+							LEFT OUTER JOIN categoria_undefined cat ON tvg.COD_CATEGORIA = cat.COD_CATEGORIA 
+						WHERE  
+							tvg.ID_INVENTARIO = :idInv
+						GROUP BY 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA 
+						ORDER BY 
+							ABS(SUM(tvg.V_DIF)) DESC;
+
+Time : 09:02:50
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'categoria_undefined' no es válido.
+Raw SQL : select 
+								distinct(COD_CATEGORIA) as deptoCode,
+								DESC_CATEGORIA as depto  
+							from 
+								categoria_undefined  
+							where 
+								ID_INVENTARIO = :idInv and 
+								deleted = :del ;
+
+Time : 09:02:50
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'tmp_variance_general_undefined' no es válido.
+Raw SQL : select 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA,
+							SUM( tvg.CANT_INV ) AS CANT_INV,
+							SUM( tvg.CANT_TEO ) AS CANT_TEO,
+							SUM( tvg.DIF ) AS DIF,
+							SUM( tvg.V_INV ) AS V_INV,
+							SUM( tvg.V_TEO ) AS V_TEO,
+							SUM( tvg.V_DIF ) AS V_DIF,
+							ABS( SUM( tvg.V_DIF ) ) AS ABS_DIF 
+						FROM 
+							tmp_variance_general_undefined tvg
+							LEFT OUTER JOIN categoria_undefined cat ON tvg.COD_CATEGORIA = cat.COD_CATEGORIA 
+						WHERE  
+							tvg.ID_INVENTARIO = :idInv
+						GROUP BY 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA 
+						ORDER BY 
+							ABS(SUM(tvg.V_DIF)) DESC;
+
+Time : 09:02:46
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'categoria_undefined' no es válido.
+Raw SQL : select 
+								distinct(COD_CATEGORIA) as deptoCode,
+								DESC_CATEGORIA as depto  
+							from 
+								categoria_undefined  
+							where 
+								ID_INVENTARIO = :idInv and 
+								deleted = :del ;
+
+Time : 09:02:46
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'tmp_variance_general_undefined' no es válido.
+Raw SQL : select 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA,
+							SUM( tvg.CANT_INV ) AS CANT_INV,
+							SUM( tvg.CANT_TEO ) AS CANT_TEO,
+							SUM( tvg.DIF ) AS DIF,
+							SUM( tvg.V_INV ) AS V_INV,
+							SUM( tvg.V_TEO ) AS V_TEO,
+							SUM( tvg.V_DIF ) AS V_DIF,
+							ABS( SUM( tvg.V_DIF ) ) AS ABS_DIF 
+						FROM 
+							tmp_variance_general_undefined tvg
+							LEFT OUTER JOIN categoria_undefined cat ON tvg.COD_CATEGORIA = cat.COD_CATEGORIA 
+						WHERE  
+							tvg.ID_INVENTARIO = :idInv
+						GROUP BY 
+							tvg.COD_CATEGORIA,
+							cat.DESC_CATEGORIA 
+						ORDER BY 
+							ABS(SUM(tvg.V_DIF)) DESC;
+
+Time : 01:03:48
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 01:03:43
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 01:02:24
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 01:02:16
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;

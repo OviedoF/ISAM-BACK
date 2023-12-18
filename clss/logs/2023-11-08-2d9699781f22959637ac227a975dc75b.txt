@@ -1,0 +1,35 @@
+Time : 22:16:40
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'largo_cod_interno', tabla 'isam_v4.dbo.inventarios'. La columna no admite valores NULL. Error de UPDATE.
+Raw SQL : EXEC SP_PROCESA_MAE_125
+
+Time : 22:13:34
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'largo_cod_interno', tabla 'isam_v4.dbo.inventarios'. La columna no admite valores NULL. Error de UPDATE.
+Raw SQL : EXEC SP_PROCESA_MAE_125
+
+Time : 22:07:59
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 22:07:50
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 22:02:21
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 22:02:15
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;

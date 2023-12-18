@@ -1,0 +1,2 @@
+Time : 16:51:17
+SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 

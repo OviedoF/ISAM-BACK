@@ -1,0 +1,31 @@
+Time : 16:57:04
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'VALUE'.
+Raw SQL : INSERT INTO t_marca_inventario_126 (tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUE (:tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:55:36
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'IF'.
+Raw SQL : CREATE TABLE IF NOT EXISTS t_marca_inventario_126 (
+            id INT(11) NOT NULL AUTO_INCREMENT,
+            tag VARCHAR(100) NOT NULL,
+            COD_CAPTURADOR VARCHAR(100) NOT NULL,
+            fecha_envio DATETIME NOT NULL,
+            total_tag INT(11) NOT NULL,
+            cod_cap_ori VARCHAR(100) NOT NULL,
+            CANTIDAD INT(11) NOT NULL,
+            COD_OPERADOR VARCHAR(100) NOT NULL,
+            COD_PRODUCTO VARCHAR(100) NOT NULL,
+            CORR_PT VARCHAR(100) NOT NULL,
+            EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+            serie VARCHAR(100) NOT NULL,
+            TIPO_LECTURA VARCHAR(100) NOT NULL,
+            est_tag VARCHAR(100) NOT NULL,
+            corr_apertura VARCHAR(100) NOT NULL,
+            FECHA_LECTURA DATETIME NOT NULL,
+            deleted INT(11) NOT NULL,
+            PRIMARY KEY (id)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -1,0 +1,36 @@
+Time : 20:57:49
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 13:45:47
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'perecibles' no es válido.
+Raw SQL : select 
+								inv.id as id,								                        
+								FORMAT (inv.feci_bod, 'yyyy-MM-dd HH:mm') as feci_bod,							
+								FORMAT (inv.fecf_bod, 'yyyy-MM-dd HH:mm') as fecf_bod,
+								FORMAT (inv.feci_sala, 'yyyy-MM-dd HH:mm') as feci_sala,							
+								FORMAT (inv.fecf_sala, 'yyyy-MM-dd HH:mm') as fecf_sala,							
+								inv.name as name,
+								inv.fecha_inventario as fecha_inventario,
+								inv.description as description,
+								inv.dota_bodega as dota_bodega,
+								inv.dota_sala as dota_sala,
+								inv.num_conteo as num_conteo,
+								ein.name as estado,
+								replace(inv.fh_cierre,' ','T') as cierre,
+								inv.factor_multip as factor,
+								inv.series,
+								inv.pesables,
+								inv.del_doblecero,
+								inv.solo_uni, 
+								inv.perecibles 
+
+							from 
+								inventarios inv
+								inner join estados_inventario ein on 
+									ein.id = inv.id_estado
+							where 
+								inv.id = :idInv ; 	

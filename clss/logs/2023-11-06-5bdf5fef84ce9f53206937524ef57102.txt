@@ -1,0 +1,35 @@
+Time : 01:53:36
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'T102' no es válido.
+Raw SQL : SELECT distinct
+									inv.id as idinventario,								
+									lic.id_local as idlocal,
+									loc.codigo as codlocal,
+									inv.perecibles
+								from  
+									inventarios inv 
+									inner join estados_inventario ein on  ein.id = inv.id_estado 
+									inner join users_inven ui	on ui.id_inventario = inv.id							
+									inner join loc_inve_c lic	on lic.id_inven = inv.id
+									inner join locales loc      on lic.id_local = loc.id
+									inner join cli_loc_c clc    on clc.id_local = loc.id
+									inner join clientes	cli		on cli.id = clc.id_cliente 
+								where inv.deleted = 0 and  ein.deleted = 0 and  ui.deleted = 0 and  ui.id_user = :eluser and loc.codigo = T102
+								order by inv.id desc
+
+Time : 01:52:50
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'T102' no es válido.
+Raw SQL : SELECT distinct
+									inv.id as idinventario,								
+									lic.id_local as idlocal,
+									loc.codigo as codlocal,
+									inv.perecibles
+								from  
+									inventarios inv 
+									inner join estados_inventario ein on  ein.id = inv.id_estado 
+									inner join users_inven ui	on ui.id_inventario = inv.id							
+									inner join loc_inve_c lic	on lic.id_inven = inv.id
+									inner join locales loc      on lic.id_local = loc.id
+									inner join cli_loc_c clc    on clc.id_local = loc.id
+									inner join clientes	cli		on cli.id = clc.id_cliente 
+								where inv.deleted = 0 and  ein.deleted = 0 and  ui.deleted = 0 and  ui.id_user = :eluser and loc.codigo = T102
+								order by inv.id desc

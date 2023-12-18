@@ -1,0 +1,13 @@
+Time : 01:11:26
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;
+
+Time : 01:11:18
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error al convertir el tipo de datos varchar a numeric.
+Raw SQL : insert into  trace_log 
+							(parent_mod,parent_col,parent_id,pre_value_num,post_value_num ) 
+							values 
+							(:parent_mod,:parent_col,:parent_id,:pre_value,:post_value) ;

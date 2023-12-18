@@ -1,0 +1,18 @@
+Time : 21:52:38
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'categoria_' no es válido.
+Raw SQL : select 
+								distinct(COD_CATEGORIA) as deptoCode,
+								DESC_CATEGORIA as depto  
+							from 
+								categoria_  
+							where 
+								ID_INVENTARIO = :idInv and 
+								deleted = :del ;
+
+Time : 20:16:56
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'COD_INTERNO', tabla 'isam_v4.dbo.t_marca_existencia_tmp_125'. La columna no admite valores NULL. Error de INSERT.
+Raw SQL : EXEC SP_PROCESA_TEO_125
+
+Time : 20:16:34
+SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'COD_INTERNO', tabla 'isam_v4.dbo.t_marca_existencia_tmp_125'. La columna no admite valores NULL. Error de INSERT.
+Raw SQL : EXEC SP_PROCESA_TEO_125

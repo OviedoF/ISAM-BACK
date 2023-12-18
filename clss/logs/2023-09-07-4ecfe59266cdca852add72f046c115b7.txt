@@ -1,0 +1,78 @@
+Time : 15:21:12
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error de inicio de sesión del usuario 'DESKTOP-BTV2J6M\Alex'.
+
+Time : 22:18:23
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id_country' no es válido.
+Raw SQL : select  distinct inv.id as idinventario,	
+                            inv.name as nombreinventario,
+                            inv.id_estado as idestadoinventario,
+                            inv.series as series,
+                            inv.solo_uni as solounidad,                            
+                            FORMAT (inv.fecha_inventario, 'dd-MM-yyyy') as fecha_inventario,
+                            replace(inv.tipo_inve,'|','/') as tipodeinve,
+                            isnull(inv.tipo_inve,'') as zonasdelinventario,
+                            isnull(loc.id,0) as idlocal,
+                            loc.codigo as codigolocal,
+
+                            inv.normal_cd as normalcd,
+                            inv.tipocaptura as tipocaptura,
+
+                            loc.name as nombrelocal,
+                            cli.id as idcliente,
+                            cli.name as nombrecliente,
+                            ein.name as estadoinventario,
+                            ui.id_user as idusuario,
+                            country.name as pais, 
+                            country.symbol,
+                            (select count(*) from users_inven where deleted = 0 and id_user = :idUser ) as invecargados 
+                        from  
+                            inventarios inv 
+                            inner join estados_inventario ein on  ein.id = inv.id_estado 
+                            inner join loc_inve_c lic	on lic.id_inven = inv.id
+                            inner join locales loc		on loc.id  = lic.id_local
+                            inner join cli_loc_c clc	on clc.id_local = loc.id 
+                            inner join clientes cli		on cli.id = clc.id_cliente
+                            inner join users_inven ui	on ui.id_inventario = inv.id
+                            LEFT OUTER JOIN country ON cli.id_country = dbo.country.id
+                        where loc.deleted = :del and 
+                                inv.deleted = :del and  
+                                ui.id_user = :idUser and 
+                                inv.id = :idInv ;	
+
+Time : 22:18:20
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id_country' no es válido.
+Raw SQL : select  distinct inv.id as idinventario,	
+                            inv.name as nombreinventario,
+                            inv.id_estado as idestadoinventario,
+                            inv.series as series,
+                            inv.solo_uni as solounidad,                            
+                            FORMAT (inv.fecha_inventario, 'dd-MM-yyyy') as fecha_inventario,
+                            replace(inv.tipo_inve,'|','/') as tipodeinve,
+                            isnull(inv.tipo_inve,'') as zonasdelinventario,
+                            isnull(loc.id,0) as idlocal,
+                            loc.codigo as codigolocal,
+
+                            inv.normal_cd as normalcd,
+                            inv.tipocaptura as tipocaptura,
+
+                            loc.name as nombrelocal,
+                            cli.id as idcliente,
+                            cli.name as nombrecliente,
+                            ein.name as estadoinventario,
+                            ui.id_user as idusuario,
+                            country.name as pais, 
+                            country.symbol,
+                            (select count(*) from users_inven where deleted = 0 and id_user = :idUser ) as invecargados 
+                        from  
+                            inventarios inv 
+                            inner join estados_inventario ein on  ein.id = inv.id_estado 
+                            inner join loc_inve_c lic	on lic.id_inven = inv.id
+                            inner join locales loc		on loc.id  = lic.id_local
+                            inner join cli_loc_c clc	on clc.id_local = loc.id 
+                            inner join clientes cli		on cli.id = clc.id_cliente
+                            inner join users_inven ui	on ui.id_inventario = inv.id
+                            LEFT OUTER JOIN country ON cli.id_country = dbo.country.id
+                        where loc.deleted = :del and 
+                                inv.deleted = :del and  
+                                ui.id_user = :idUser and 
+                                inv.id = :idInv ;	

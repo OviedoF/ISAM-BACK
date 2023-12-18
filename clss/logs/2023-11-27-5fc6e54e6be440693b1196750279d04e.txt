@@ -1,0 +1,3 @@
+Time : 03:13:43
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'clientes'.
+Raw SQL : select * from clientes where deleted = :del

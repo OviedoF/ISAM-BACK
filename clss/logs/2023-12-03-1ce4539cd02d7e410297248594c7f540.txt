@@ -1,0 +1,549 @@
+Time : 16:02:59
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:59
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:58
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:58
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:57
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:56
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:55
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:02:49
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_02325'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_02325 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 16:01:04
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_02325'.
+Raw SQL : SELECT * FROM t_marca_inventario_tmp_02325
+
+Time : 16:01:00
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_025'.
+Raw SQL : SELECT * FROM t_marca_inventario_tmp_025
+
+Time : 15:59:39
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : SELECT * FROM t_marca_inventario_tmp_125
+
+Time : 15:59:33
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : SELECT * FROM t_marca_inventario_tmp_125
+
+Time : 15:59:23
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_125'.
+Raw SQL : SELECT * FROM t_marca_inventario_tmp_125
+
+Time : 15:56:28
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ID_INVENTARIO'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 15:50:21
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag FLOAT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD FLOAT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 15:49:11
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag FLOAT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD FLOAT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+
+Time : 15:41:24
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag FLOAT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD FLOAT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 15:40:34
+SQLSTATE[22018]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '0.2' to data type int.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_13 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 15:40:29
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_121' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_121')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_121 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag FLOAT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 15:39:11
+SQLSTATE[22018]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '3.2' to data type int.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_1252 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 15:39:06
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 15:36:33
+SQLSTATE[22018]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '3.2' to data type int.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_12 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 15:36:23
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                ID_INVENTARIO BIGINT NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:40:00
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ID_INVENTARIO'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_223 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:39:55
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_22' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_22')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_22 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:39:40
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_inventario'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_22 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:35:55
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_inventario'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_1 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:35:43
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_222'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_222 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:35:35
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_121' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_121')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_121 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:34:15
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_222'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_222 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:32:18
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_inventario'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_121 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:31:44
+SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'IF'.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE IF NOT EXISTS t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:31:24
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:31:23
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:31:22
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:31:11
+SQLSTATE[42S01]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 't_marca_inventario_tmp_125' in the database.
+Raw SQL : IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 't_marca_inventario_125')
+        BEGIN
+            CREATE TABLE t_marca_inventario_tmp_125 (
+                id INT IDENTITY(1,1) NOT NULL,
+                tag VARCHAR(100) NOT NULL,
+                COD_CAPTURADOR VARCHAR(100) NOT NULL,
+                fecha_envio DATETIME NOT NULL,
+                total_tag INT NOT NULL,
+                cod_cap_ori VARCHAR(100) NOT NULL,
+                CANTIDAD INT NOT NULL,
+                COD_OPERADOR VARCHAR(100) NOT NULL,
+                COD_PRODUCTO VARCHAR(100) NOT NULL,
+                CORR_PT VARCHAR(100) NOT NULL,
+                EXISTENCIA_PRODUCTO VARCHAR(100) NOT NULL,
+                serie VARCHAR(100) NOT NULL,
+                TIPO_LECTURA VARCHAR(100) NOT NULL,
+                est_tag VARCHAR(100) NOT NULL,
+                corr_apertura VARCHAR(100) NOT NULL,
+                FECHA_LECTURA DATETIME NOT NULL,
+                deleted INT NOT NULL,
+                PRIMARY KEY (id)
+            )
+        END
+
+Time : 13:28:55
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_inventario'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_9 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:27:57
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_inventario'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
+
+Time : 13:24:37
+SQLSTATE[42S02]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 't_marca_inventario_tmp_222'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_222 (id_inventario, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)
