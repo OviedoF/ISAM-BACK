@@ -1,0 +1,71 @@
+Time : 21:09:40
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:51:15
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:49:55
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:49:30
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:47:36
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:46:03
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:44:30
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_125 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)
+
+Time : 20:41:06
+SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'posicion'.
+Raw SQL : INSERT INTO t_marca_inventario_tmp_9 (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
+                                                         CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
+            VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
+            :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)

@@ -218,51 +218,77 @@ class auth extends DB{
         return $res;
     }
    
-    private function CreaArchivo($cabecera,$lecturas,$lineas){
+    private function CreaArchivo($cabecera, $lecturas, $lineas)
+    {
         error_log("CreaArchivo 10.1");
-        $empresa=$cabecera['CodEmpresa'];
-        $inventario=$cabecera['CodInv'];
-        $fecha=str_replace('-','_',substr($cabecera['FechaEnvio'],0,10));
-        $hora=str_replace(':','_',substr($cabecera['FechaEnvio'],11,8));
-        $capturador=$cabecera['CodCapturador'];
-        $area=substr($cabecera['Area'],0,-1);
-        $nombre_archivo=$empresa."_".$inventario."_".$capturador."_".$area."_".$fecha."_".$hora.".txt";
-
-        // * Crear la carpeta txt/$inventario si no existe
-
-        if (!file_exists("txt/INV-".$inventario)) {
-            mkdir("txt/INV-".$inventario, 0777, true);
+    
+        $empresa = $cabecera['CodEmpresa'];
+        $inventario = $cabecera['CodInv'];
+        $fecha = str_replace('-', '_', substr($cabecera['FechaEnvio'], 0, 10));
+        $hora = str_replace(':', '_', substr($cabecera['FechaEnvio'], 11, 8));
+        $capturador = $cabecera['CodCapturador'];
+        $area = substr($cabecera['Area'], 0, -1);
+        $posicion = $cabecera['Posicion'];
+        $caja = $cabecera['Caja'];
+        $pallet = $cabecera['Pallet'];
+    
+        $nombre_archivo = $empresa . "_" . $inventario . "_" . $capturador . "_";
+    
+        if ($posicion !== "") {
+            $nombre_archivo .= $posicion . "_";
         }
-      
-        // * La ruta del archivo es txt/$inventario/empresa_inventario_capturador_area_fecha_hora.txt
-        $fh = fopen("txt/INV-".$inventario."/".$nombre_archivo, 'w') or die("Se produjo un error al crear el archivo");
-        for($i=0;$i<$lineas;$i++){            
-            //$texto=$capturador."|".$lecturas[$i]['CodOperador']."|".$area."|".$lecturas[$i]['CodProducto']."|".$lecturas[$i]['Cantidad']."|".$lecturas[$i]['FechaLectura']."|".$lecturas[$i]['CorrPt']."|".$lecturas[$i]['ExistenciaProducto']."|".$lecturas[$i]['TipoLectura']."|".$lecturas[$i]['Serie']."\n";
-            /*orden anterior 1-2-3-4-5-6-7-8-9-10
-             *nuevo orden 7-6-1-2-10-3-4-5-8-9
-             * $texto=
-             *1       $capturador."|".
-             *2       $lecturas[$i]['CodOperador']."|".
-             *3       $area."|".
-             *4       $lecturas[$i]['CodProducto']."|".
-             *5       $lecturas[$i]['Cantidad']."|".
-             *6       $lecturas[$i]['FechaLectura']."|".
-             *7       $lecturas[$i]['CorrPt']."|".
-             *8       $lecturas[$i]['ExistenciaProducto']."|".
-             *9       $lecturas[$i]['TipoLectura']."|".
-             *10       $lecturas[$i]['Serie']."|".
-             *."\n";*/
 
-            $fecha_lectura=$this->fecha_cambio($lecturas[$i]['FechaLectura']);
-            $lecturas[$i]['FechaLectura']=str_replace('T',' ',$fecha_lectura);
+        if ($pallet !== "") {
+            $nombre_archivo .= $pallet . "_";
+        }
 
-            $texto=$lecturas[$i]['CorrPt']."|".$lecturas[$i]['FechaLectura']."|".$capturador."|".$lecturas[$i]['CodOperador']."|".$lecturas[$i]['Serie']."|".$area."|".$lecturas[$i]['CodProducto']."|".$lecturas[$i]['Cantidad']."|".$lecturas[$i]['ExistenciaProducto']."|".$lecturas[$i]['TipoLectura']."|".trim($lecturas[$i]['EstadoTag'])."|".trim($lecturas[$i]['CorrelativoApertura'])."\n";
-            
+        if ($caja !== "") {
+            $nombre_archivo .= $caja . "_";
+        }
+
+        if ($area !== "") {
+            $nombre_archivo .= $area . "_";
+        }
+    
+        $nombre_archivo .= $fecha . "_" . $hora . ".txt";
+    
+        // Crear la carpeta txt/$inventario si no existe
+        if (!file_exists("txt/INV-" . $inventario)) {
+            mkdir("txt/INV-" . $inventario, 0777, true);
+        }
+    
+        // La ruta del archivo es txt/$inventario/empresa_inventario_capturador_area_fecha_hora.txt
+        $fh = fopen("txt/INV-" . $inventario . "/" . $nombre_archivo, 'w') or die("Se produjo un error al crear el archivo");
+    
+        for ($i = 0; $i < $lineas; $i++) {
+            $fecha_lectura = $this->fecha_cambio($lecturas[$i]['FechaLectura']);
+            $lecturas[$i]['FechaLectura'] = str_replace('T', ' ', $fecha_lectura);
+    
+            $texto = $lecturas[$i]['CorrPt'] . "|" .
+                $lecturas[$i]['FechaLectura'] . "|" .
+                $capturador . "|" .
+                $lecturas[$i]['CodOperador'] . "|";
+                $texto .= $area . "|";
+                $texto .= $posicion . "|";
+                $texto .= $pallet . "|";
+                $texto .= $caja . "|";
+
+            if($lecturas[$i]['Serie'] !== ""){
+                $texto .= $lecturas[$i]['Serie'] . "|";
+            }
+
+            $texto .= $lecturas[$i]['CodProducto'] . "|" .
+                $lecturas[$i]['Cantidad'] . "|" .
+                $lecturas[$i]['ExistenciaProducto'] . "|" .
+                $lecturas[$i]['TipoLectura'] . "|" .
+                trim($lecturas[$i]['EstadoTag']) . "|" .
+                trim($lecturas[$i]['CorrelativoApertura']) . "\n";
+    
             fwrite($fh, $texto) or die("No se pudo escribir en el archivo");
         }
-       
+    
         fclose($fh);
-       
+    
         return true;
     }
 
@@ -303,6 +329,9 @@ class auth extends DB{
         // * Leemos todos los datos: $cabecera es el json que se mandó desde el front
 
         $area=trim($cabecera['Area']);
+        $posicion=trim($cabecera['Posicion']);
+        $caja=trim($cabecera['Caja']);
+        $pallet=trim($cabecera['Pallet']);
         $capturador=trim($cabecera['CodCapturador']);
         $fecha_envio=$this->fecha_cambio(trim($cabecera['FechaEnvio']));
         $total_lectura=trim($cabecera['TotalLectura']);
@@ -326,6 +355,9 @@ class auth extends DB{
                 id INT IDENTITY(1,1) NOT NULL,
                 ID_INVENTARIO BIGINT NOT NULL,
                 tag VARCHAR(100) NOT NULL,
+                posicion VARCHAR(100) NOT NULL,
+                caja VARCHAR(100) NOT NULL,
+                pallet VARCHAR(100) NOT NULL,
                 COD_CAPTURADOR VARCHAR(100) NOT NULL,
                 fecha_envio DATETIME NOT NULL,
                 total_tag FLOAT NOT NULL,
@@ -345,8 +377,8 @@ class auth extends DB{
             )";
     
             $verifica = parent::insertUpdateData($sql_create_table, null);
-        }
-        
+        } // * Creación de la tabla t_marca_inventario_($inventario) si no existe
+         
         $resultado=true;
 
         for($i=0;$i<$lineas;$i++){
@@ -367,10 +399,10 @@ class auth extends DB{
             error_log("Cantidad leida".$cantidad);
             $sql_in="INSERT INTO t_marca_inventario_tmp_".$inventario." (ID_INVENTARIO, tag,COD_CAPTURADOR,fecha_envio,total_tag,cod_cap_ori,
                                                          CANTIDAD,COD_OPERADOR,COD_PRODUCTO,CORR_PT,EXISTENCIA_PRODUCTO,
-                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted)
+                                                         serie,TIPO_LECTURA,est_tag,corr_apertura,FECHA_LECTURA, deleted, posicion, caja, pallet)
             VALUES (:id_inventario, :tag,:cod_capturador,:fecha_envio,:total_tag,:cod_cap_ori,
             :cantidad,:cod_operador,:cod_producto,:corr_pt,:existencia_producto,
-            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0)";
+            :serie,:tipo_lectura,:est_tag,:corr_apertura,:fecha_lectura,0, :posicion, :caja, :pallet)";
             error_log($sql_in);
             $params = array( 
                 "id_inventario"=>$inventario,
@@ -388,7 +420,10 @@ class auth extends DB{
                 "tipo_lectura"=>$tipo_lectura,
                 "est_tag"=>$est_tag,
                 "corr_apertura"=>$corr_apertura,
-                "fecha_lectura"=>$fecha_lectura
+                "fecha_lectura"=>$fecha_lectura,
+                "posicion"=>$posicion,
+                "caja"=>$caja,
+                "pallet"=>$pallet
             );
 
             // error_log(print_r($params,true));

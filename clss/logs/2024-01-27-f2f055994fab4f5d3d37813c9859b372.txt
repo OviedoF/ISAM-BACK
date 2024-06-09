@@ -1,0 +1,2 @@
+Time : 00:49:07
+SQLSTATE[28000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'isam'.  Reason: The password of the account has expired.

@@ -6,7 +6,7 @@ define('DB_SERVER_HOST', 'localhost');
 ///define('DB_SERVER_PORT', '3306'); 
 define('DB_SERVER_PORT', '1433'); 
 define('DB_CATALOG_NAME', 'isam_v5');
-define('DB_USER_NAME', 'isam'); 
+define('DB_USER_NAME', 'admin'); 
 define('DB_PASSWORD', '123'); 
 
 class DB
@@ -65,13 +65,12 @@ class DB
 
     private function Connect()
     {
-        
         try {
-            $this->pdo = new PDO('sqlsrv:server=DESKTOP-0785UB7;database=' . $this->DBName);
+            $this->pdo = new PDO('sqlsrv:server=DESKTOP-0785UB7;database=' . $this->DBName, $this->DBUser, $this->DBPassword);
             
-            $this->pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-            $this->bConnected = true;
-
+            $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->bConnected = true; 
+    
         } catch (PDOException $e) {
             $this->ExceptionLog($e->getMessage());
             throw $e;

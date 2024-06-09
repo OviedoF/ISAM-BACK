@@ -2,12 +2,10 @@
 
 require('PDO.Log.class.php');
 define('DB_SERVER_HOST', 'localhost'); 
-
-///define('DB_SERVER_PORT', '3306'); 
 define('DB_SERVER_PORT', '1433'); 
 define('DB_CATALOG_NAME', 'isam_v5');
-define('DB_USER_NAME', 'isam'); 
-define('DB_PASSWORD', 'isam'); 
+define('DB_USER_NAME', 'admin'); 
+define('DB_PASSWORD', '123'); 
 
 class DB
 {
@@ -26,24 +24,20 @@ class DB
     public $rowCount = 0;
     public $columnCount = 0;
     public $querycount = 0;
+    public $success; // Definir la propiedad 'success'
 
-    /*public function __construct()
-    {
-        self::__construct(DB_SERVER_HOST, DB_CATALOG_NAME, DB_USER_NAME, DB_PASSWORD, DB_SERVER_PORT);
-    }*/
-
-    public function __construct() //$Host, $DBName, $DBUser, $DBPassword, $DBPort = 3306)
+    public function __construct()
     {
         $this->log = new Log();
-        $this->Host = DB_SERVER_HOST;// $Host;
-        $this->DBName = DB_CATALOG_NAME; //$DBName;
-        $this->DBUser = DB_USER_NAME; //$DBUser;
-        $this->DBPassword = DB_PASSWORD; //$DBPassword;
-        $this->DBPort = DB_SERVER_PORT; //$DBPort;
+        $this->Host = DB_SERVER_HOST;
+        $this->DBName = DB_CATALOG_NAME;
+        $this->DBUser = DB_USER_NAME;
+        $this->DBPassword = DB_PASSWORD;
+        $this->DBPort = DB_SERVER_PORT;
         $this->Connect();
         $this->parameters = array();
     }
-    
+
     public function getNextSequence($sequenceType)
     {
         if (!$this->bConnected) return null;
@@ -65,22 +59,10 @@ class DB
 
     private function Connect()
     {
-        
         try {
-
-            // $this->pdo = new PDO('sqlsrv:server=localhost\SQLEXPRESS;database='. $this->DBName , $this->DBUser, $this->DBPassword);
-            $this->pdo = new PDO('sqlsrv:server=DESKTOP-0785UB7;database='. $this->DBName, $this->DBUser, $this->DBPassword);
-            $this->pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-            /*
-            //For PHP 5.3.6 or lower
-            $this->pdo->setAttribute(PDO::MYSQL_ATTR_INIT_COMMAND, 'SET NAMES utf8');
-            $this->pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+            $this->pdo = new PDO('sqlsrv:server=' . $this->Host . ';database=' . $this->DBName, $this->DBUser, $this->DBPassword);
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            //$this->pdo->setAttribute(PDO::ATTR_PERSISTENT, true);//长连接
-            $this->pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);
-            */
             $this->bConnected = true;
-
         } catch (PDOException $e) {
             $this->ExceptionLog($e->getMessage());
             throw $e;
@@ -102,7 +84,7 @@ class DB
 
     public function RollBackTransaction()
     {
-        if ($this->pdo and $this->transactionCount > 0) {
+        if ($this->pdo && $this->transactionCount > 0) {
             $this->ResetTransactionCounter();
             $this->pdo->rollBack();
         }
@@ -110,7 +92,7 @@ class DB
 
     public function CommitTransaction()
     {
-        if ($this->pdo and $this->transactionCount > 0) {
+        if ($this->pdo && $this->transactionCount > 0) {
             $this->ResetTransactionCounter();
             $this->pdo->commit();
         }
@@ -137,16 +119,8 @@ class DB
                 } else {
                     $parametersType = false;
                 }
-                #foreach ($this->parameters as $column => $value) {
-                #    $this->sQuery->bindParam($parametersType ? intval($column) : ":" . $column, $this->parameters[$column]);
-                #    //It would be query after loop end(before 'sQuery->execute()').It is wrong to use $value.
-                #}
             }
-            ///error_log("Parametros :::: ");            
-            ///error_log("Consulta :::: ");
-            ///error_log(print_r($this->sQuery,true)); 
-
-            $this->succes = $this->sQuery->execute();
+            $this->success = $this->sQuery->execute();
             $this->querycount++;
         } catch (PDOException $e) {
             $this->ExceptionLog($e->getMessage(), $this->BuildParams($query));
@@ -158,22 +132,11 @@ class DB
     private function BuildParams($query, $params = null)
     {
         if (!empty($params)) {
-
-            foreach ($params as $llave => $valor)
-            {
-                $valor = str_ireplace("'",'"',$valor);
-                if (is_string($valor)) { $valor = "'" . $valor .  "'";} 
-                $query = str_ireplace(":" . $llave, $valor,$query);
+            foreach ($params as $llave => $valor) {
+                $valor = str_ireplace("'", '"', $valor);
+                if (is_string($valor)) { $valor = "'" . $valor .  "'"; } 
+                $query = str_ireplace(":" . $llave, $valor, $query);
             }
-
-
-            #$rawStatement = explode(" ", $query);
-            #foreach ($rawStatement as $value) {
-            #    error_log("value:" . print_r($value, true));
-            #    if (strtolower($value) == 'in') {
-            #        return str_replace("(?)", "(" . implode(",", array_fill(0, count($params), "?")) . ")", $query);
-            #    }
-            #}
         }
         return $query;
     }
@@ -190,7 +153,6 @@ class DB
             return $className === null ? $this->sQuery->fetchAll($fetchmode) : $this->sQuery->fetchAll($fetchmode, $className);
         } elseif ($statement === 'insert' || $statement === 'update' || $statement === 'delete') 
         {
-            ////error_log(print_r($this->sQuery->rowCount(),true));
             return $this->sQuery->rowCount();
         } else {
             return NULL;
@@ -262,9 +224,7 @@ class DB
         }
         $this->rowCount = $this->sQuery->rowCount();
         $this->columnCount = $this->sQuery->columnCount();
-        //error_log(print_r($this,true));
         $this->sQuery->closeCursor();
-        //error_log(print_r($resultRow,true));
         return $resultRow;
     }
 
@@ -295,10 +255,6 @@ class DB
         $this->log->write($message, $this->DBName . md5($this->DBPassword));
 
         $this->lastMessageException = $exception;
-
-        //Prevent search engines to crawl
-        //header("HTTP/1.1 500 Internal Server Error");
-        //header("Status: 500 Internal Server Error");
 
         return $exception;
     }
